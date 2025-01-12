@@ -1,0 +1,6 @@
+FROM baseimage
+
+RUN dnf install -y \
+    fd-find \
+    && \
+    dnf clean all
